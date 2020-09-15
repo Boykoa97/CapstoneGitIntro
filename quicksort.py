@@ -27,11 +27,3 @@ def partition(array,low,high):
     return i-1
 
 
-testEven = [2,4,5,6,1,7]
-testOdd = [2,4,5,6,3,10,1,7,8]
-
-quickSort(testEven,0,len(testEven)-1)
-quickSort(testOdd,0,len(testOdd)-1)
-
-print(testEven)
-print(testOdd)

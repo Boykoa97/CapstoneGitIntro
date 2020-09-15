@@ -17,8 +17,6 @@ def mergeSort(array):
     else:
         mid = int(length/2)
 
-        print(array[:mid])
-        print(array[mid:])
         leftSide = mergeSort(array[:mid])
         rightSide = mergeSort(array[mid:])
 
@@ -42,12 +40,4 @@ def mergeSort(array):
 
     return array
 
-testEven = [2, 4, 3, 1, 7, 8, 12, 11, 10,15]
-testOdd = [2,4,3,1,7,8,12,11,10]
-
-testEven = mergeSort(testEven)
-testOdd = mergeSort(testOdd)
-
-print(testOdd)
-print(testEven)
 

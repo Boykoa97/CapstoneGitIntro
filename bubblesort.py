@@ -18,6 +18,4 @@ def bubbleSort(array):
 
 
 
-testArray = [5,4,8,2,10,15,22,17]
-bubbleSort(testArray)
-print(testArray)
+
